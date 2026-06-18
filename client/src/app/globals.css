@@ -1,0 +1,184 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  /*  Core color mappings  */
+  --color-background:          var(--background);
+  --color-foreground:          var(--foreground);
+
+  --color-card:                var(--card);
+  --color-card-foreground:     var(--card-foreground);
+
+  --color-popover:             var(--popover);
+  --color-popover-foreground:  var(--popover-foreground);
+
+  --color-primary:             var(--primary);
+  --color-primary-foreground:  var(--primary-foreground);
+
+  --color-secondary:           var(--secondary);
+  --color-secondary-foreground:var(--secondary-foreground);
+
+  --color-muted:               var(--muted);
+  --color-muted-foreground:    var(--muted-foreground);
+
+  --color-accent:              var(--accent);
+  --color-accent-foreground:   var(--accent-foreground);
+
+  --color-destructive:         var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --color-border:              var(--border);
+  --color-input:               var(--input);
+  --color-ring:                var(--ring);
+
+  /*  Brand colors (always accessible)  */
+  --color-ocean:               #2872A1;
+  --color-ocean-hover:         #1A4A6B;
+  --color-ocean-light:         #4A90B8;
+  --color-sky:                 #CBDDE9;
+  --color-sky-hover:           #B3CCD9;
+  --color-sky-light:           #E8F3F9;
+  --color-navy:                #0F2D42;
+  --color-mist:                #F0F7FB;
+
+  /*  Border radius scale  */
+  --radius-sm:  calc(var(--radius) - 4px);
+  --radius-md:  calc(var(--radius) - 2px);
+  --radius-lg:  var(--radius);
+  --radius-xl:  calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+}
+
+/* 
+   LIGHT MODE
+   Background : #E8F3F9 (Light Mist)
+   Cards      : #FFFFFF
+   Primary    : #2872A1 (Ocean Blue)
+   Secondary  : #CBDDE9 (Cloudy Sky)
+ */
+:root {
+  --radius: 0.625rem;
+
+  --background:           oklch(from #E8F3F9 l c h);
+  --foreground:           oklch(from #0F2D42 l c h);
+
+  --card:                 oklch(from #FFFFFF l c h);
+  --card-foreground:      oklch(from #0F2D42 l c h);
+
+  --popover:              oklch(from #FFFFFF l c h);
+  --popover-foreground:   oklch(from #0F2D42 l c h);
+
+  --primary:              oklch(from #2872A1 l c h);
+  --primary-foreground:   oklch(from #FFFFFF l c h);
+
+  --secondary:            oklch(from #CBDDE9 l c h);
+  --secondary-foreground: oklch(from #1A4A6B l c h);
+
+  --muted:                oklch(from #CBDDE9 l c h);
+  --muted-foreground:     oklch(from #4A6B80 l c h);
+
+  --accent:               oklch(from #4A90B8 l c h);
+  --accent-foreground:    oklch(from #FFFFFF l c h);
+
+  --destructive:          oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(from #FFFFFF l c h);
+
+  --border:               oklch(from #B3CCD9 l c h);
+  --input:                oklch(from #CBDDE9 l c h);
+  --ring:                 oklch(from #2872A1 l c h);
+}
+
+/* 
+   DARK MODE
+   Background : #0F2D42 (Deep Navy)
+   Cards      : #1A4A6B (Dark Navy)
+   Primary    : #4A90B8 (Steel Blue)
+   Secondary  : #2872A1 (Ocean Blue)
+ */
+.dark {
+  --background:           oklch(from #0F2D42 l c h);
+  --foreground:           oklch(from #E8F3F9 l c h);
+
+  --card:                 oklch(from #1A4A6B l c h);
+  --card-foreground:      oklch(from #E8F3F9 l c h);
+
+  --popover:              oklch(from #1A4A6B l c h);
+  --popover-foreground:   oklch(from #E8F3F9 l c h);
+
+  --primary:              oklch(from #4A90B8 l c h);
+  --primary-foreground:   oklch(from #0F2D42 l c h);
+
+  --secondary:            oklch(from #2872A1 l c h);
+  --secondary-foreground: oklch(from #E8F3F9 l c h);
+
+  --muted:                oklch(from #1E3D52 l c h);
+  --muted-foreground:     oklch(from #8BAEC2 l c h);
+
+  --accent:               oklch(from #2872A1 l c h);
+  --accent-foreground:    oklch(from #E8F3F9 l c h);
+
+  --destructive:          oklch(0.396 0.141 25.723);
+  --destructive-foreground: oklch(from #E8F3F9 l c h);
+
+  --border:               oklch(from #2872A1 l c h / 40%);
+  --input:                oklch(from #2872A1 l c h / 20%);
+  --ring:                 oklch(from #4A90B8 l c h);
+}
+
+/* 
+   GLOBAL BASE STYLES
+ */
+* {
+  box-sizing: border-box;
+  border-color: var(--color-border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-ocean);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ocean-hover);
+}
+
+/* Focus ring */
+:focus-visible {
+  outline: 2px solid var(--color-ocean);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Selection color */
+::selection {
+  background-color: #2872A1;
+  color: #ffffff;
+}

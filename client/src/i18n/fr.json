@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "library": "Bibliothèque",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "logout": "Déconnexion",
+    "login": "Connexion",
+    "register": "S'inscrire"
+  },
+  "auth": {
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "forgotPassword": "Mot de passe oublié?",
+    "resetPassword": "Réinitialiser",
+    "username": "Nom d'utilisateur",
+    "email": "Email",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "orContinueWith": "Ou continuer avec",
+    "alreadyHaveAccount": "Vous avez déjà un compte?",
+    "dontHaveAccount": "Vous n'avez pas de compte?"
+  },
+"library": {
+  "search": "Rechercher des films...",
+  "filters": "Filtres",
+  "sortBy": "Trier par",
+  "genre": "Genre",
+  "year": "Année",
+  "rating": "Note",
+  "noResults": "Aucun film trouvé",
+  "watched": "Regardé",
+  "unwatched": "Non regardé",
+
+  "popularMovies": "Films populaires",
+  "resultsFor": "Résultats pour",
+  "browseDescription": "Parcourez les films gratuits et légaux les plus populaires",
+  "searchDescription": "Affichage des résultats de recherche depuis toutes les sources",
+  "showing": "Affichage de",
+  "movie": "film",
+  "movies": "films",
+  "for": "pour",
+  "noResultsFor": "Nous n'avons trouvé aucun film correspondant à",
+  "noMoviesAvailable": "Aucun film disponible pour le moment. Réessayez plus tard."
+},
+  "movie": {
+    "director": "Réalisateur",
+    "cast": "Casting",
+    "year": "Année",
+    "length": "Durée",
+    "rating": "Note",
+    "comments": "Commentaires",
+    "addComment": "Ajouter un commentaire",
+    "subtitles": "Sous-titres",
+    "noSubtitles": "Aucun sous-titre disponible"
+  },
+"profile": {
+  "editProfile": "Modifier le profil",
+  "profilePicture": "Photo de profil",
+  "language": "Langue",
+  "save": "Sauvegarder",
+
+  "back": "Retour à la bibliothèque",
+  "publicProfile": "Profil public",
+  "yourAccount": "Votre compte",
+  "memberSince": "Membre depuis",
+  "languageLabel": "Langue",
+  "yourPublicProfileTitle": "Ceci est votre profil public",
+  "yourPublicProfileDescription": "Les autres utilisateurs peuvent voir votre nom, votre nom d'utilisateur et votre photo de profil. Votre adresse email reste privée.",
+  "userNotFound": "Utilisateur introuvable",
+  "profileLoadError": "Une erreur est survenue. Veuillez réessayer.",
+  "loadingProfile": "Chargement du profil...",
+
+  "personalInformation": "Informations personnelles",
+  "username": "Nom d'utilisateur",
+  "email": "Email",
+  "firstName": "Prénom",
+  "lastName": "Nom",
+
+  "noChanges": "Aucune modification à enregistrer",
+  "updateSuccess": "Profil mis à jour avec succès",
+  "updateError": "Échec de la mise à jour du profil",
+
+  "validation": {
+    "usernameMin": "Le nom d'utilisateur doit contenir au moins 3 caractères",
+    "usernameFormat": "Le nom d'utilisateur doit être en minuscules et peut contenir des points (pas au début/fin ou consécutifs)",
+    "usernameDots": "Le nom d'utilisateur ne peut pas contenir deux points consécutifs",
+    "invalidEmail": "Format d'email invalide",
+    "firstNameMin": "Le prénom doit contenir au moins 2 caractères",
+    "firstNameMax": "Le prénom est trop long",
+    "lastNameMin": "Le nom doit contenir au moins 2 caractères",
+    "lastNameMax": "Le nom est trop long",
+    "firstNameLetters": "Le prénom doit contenir uniquement des lettres",
+    "lastNameLetters": "Le nom doit contenir uniquement des lettres"
+  },
+  "changePassword": "Changer le mot de passe",
+  "currentPassword": "Mot de passe actuel",
+  "newPassword": "Nouveau mot de passe",
+  "confirmPassword": "Confirmer le nouveau mot de passe",
+  "passwordMinInfo": "Le mot de passe doit contenir au moins 6 caractères",
+  "changingPassword": "Modification du mot de passe...",
+  "changePasswordSuccess": "Mot de passe modifié avec succès",
+  "changePasswordError": "Échec de la modification du mot de passe",
+
+  "passwordValidation": {
+    "currentRequired": "Le mot de passe actuel est requis",
+    "newMin": "Le mot de passe doit contenir au moins 6 caractères",
+    "confirmRequired": "Veuillez confirmer votre mot de passe",
+    "notMatch": "Les mots de passe ne correspondent pas",
+    "invalidCurrent": "Le mot de passe actuel est incorrect"
+  }
+},
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "retry": "Réessayer",
+    "cancel": "Annuler",
+    "save": "Sauvegarder",
+    "delete": "Supprimer",
+    "edit": "Modifier"
+  },
+  "comments": {
+  "title": "Commentaires",
+  "placeholder": "Partagez votre avis sur ce film...",
+  "characters": "caractères",
+  "post": "Publier",
+  "posting": "Publication...",
+  "empty": "Aucun commentaire pour le moment. Soyez le premier à donner votre avis !",
+  "loginToComment": "Veuillez vous connecter pour laisser un commentaire",
+  "commentEmpty": "Le commentaire ne peut pas être vide",
+  "commentTooLong": "Le commentaire est trop long (max 500 caractères)",
+  "posted": "Commentaire publié !",
+  "failed": "Échec de la publication du commentaire"
+},
+"settings": {
+  "title": "Paramètres",
+  "subtitle": "Gérez les préférences de votre compte",
+  "dangerZone": "Zone dangereuse",
+  "dangerDescription": "Une fois votre compte supprimé, il ne pourra pas être récupéré.",
+  "deleteAccount": "Supprimer le compte",
+  "deleteConfirm": "Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible.",
+  "deleteSuccess": "Compte supprimé avec succès",
+  "deleteError": "Échec de la suppression du compte",
+  "loading": "Chargement des paramètres...",
+  "loadError": "Impossible de charger les paramètres."
+},
+"footer": {
+  "description": "Une plateforme moderne pour diffuser des vidéos gratuites et légales via le protocole BitTorrent.",
+  "navigation": "Navigation",
+  "legal": "Légal",
+  "legalNote": "Seuls des contenus libres de droits et légalement distribuables sont utilisés.",
+  "rights": "Tous droits réservés.",
+  "streamingSince": "Diffusion légale depuis"
+}
+}

@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "library": "Library",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "Reset Password",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "orContinueWith": "Or continue with",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?"
+  },
+  "library": {
+  "search": "Search movies...",
+  "filters": "Filters",
+  "sortBy": "Sort by",
+  "genre": "Genre",
+  "year": "Year",
+  "rating": "Rating",
+  "noResults": "No movies found",
+  "watched": "Watched",
+  "unwatched": "Unwatched",
+
+  "popularMovies": "Popular Movies",
+  "resultsFor": "Results for",
+  "browseDescription": "Browse the most popular free and legal movies",
+  "searchDescription": "Showing search results from all sources",
+  "showing": "Showing",
+  "movie": "movie",
+  "movies": "movies",
+  "for": "for",
+  "noResultsFor": "We couldn't find any movies matching",
+  "noMoviesAvailable": "No movies available right now. Try again later."
+},
+  "movie": {
+    "director": "Director",
+    "cast": "Cast",
+    "year": "Year",
+    "length": "Length",
+    "rating": "Rating",
+    "comments": "Comments",
+    "addComment": "Add a comment",
+    "subtitles": "Subtitles",
+    "noSubtitles": "No subtitles available"
+  },
+"profile": {
+  "editProfile": "Edit Profile",
+  "profilePicture": "Profile Picture",
+  "language": "Language",
+  "save": "Save Changes",
+
+  "back": "Back to Library",
+  "publicProfile": "Public profile",
+  "yourAccount": "Your account",
+  "memberSince": "Member since",
+  "languageLabel": "Language",
+  "yourPublicProfileTitle": "This is your public profile",
+  "yourPublicProfileDescription": "Other users can see your name, username and profile picture. Your email address is always private.",
+  "userNotFound": "User not found",
+  "profileLoadError": "Something went wrong. Please try again.",
+  "loadingProfile": "Loading profile...",
+
+  "personalInformation": "Personal Information",
+  "username": "Username",
+  "email": "Email",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+
+  "noChanges": "No changes to save",
+  "updateSuccess": "Profile updated successfully",
+  "updateError": "Failed to update profile",
+
+  "validation": {
+    "usernameMin": "Username must be at least 3 characters",
+    "usernameFormat": "Username must be lowercase, can contain dots (not at start/end or consecutive)",
+    "usernameDots": "Username cannot have consecutive dots",
+    "invalidEmail": "Invalid email format",
+    "firstNameMin": "First name must be at least 2 characters",
+    "firstNameMax": "First name is too long",
+    "lastNameMin": "Last name must be at least 2 characters",
+    "lastNameMax": "Last name is too long",
+    "firstNameLetters": "First name must contain only letters",
+    "lastNameLetters": "Last name must contain only letters"
+  },
+
+  "changePassword": "Change Password",
+  "currentPassword": "Current Password",
+  "newPassword": "New Password",
+  "confirmPassword": "Confirm New Password",
+  "passwordMinInfo": "Password must be at least 6 characters long",
+  "changingPassword": "Changing Password...",
+  "changePasswordSuccess": "Password changed successfully",
+  "changePasswordError": "Failed to change password",
+
+  "passwordValidation": {
+    "currentRequired": "Current password is required",
+    "newMin": "Password must be at least 6 characters",
+    "confirmRequired": "Please confirm your password",
+    "notMatch": "Passwords do not match",
+    "invalidCurrent": "Current password is incorrect"
+  }
+},
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit"
+  },
+  "comments": {
+  "title": "Comments",
+  "placeholder": "Share your thoughts about this movie...",
+  "characters": "characters",
+  "post": "Post Comment",
+  "posting": "Posting...",
+  "empty": "No comments yet. Be the first to share your thoughts!",
+  "loginToComment": "Please log in to leave a comment",
+  "commentEmpty": "Comment cannot be empty",
+  "commentTooLong": "Comment is too long (max 500 characters)",
+  "posted": "Comment posted!",
+  "failed": "Failed to post comment"
+},
+"settings": {
+  "title": "Settings",
+  "subtitle": "Manage your account preferences",
+  "dangerZone": "Danger Zone",
+  "dangerDescription": "Once you delete your account, there is no going back.",
+  "deleteAccount": "Delete Account",
+  "deleteConfirm": "Are you sure you want to delete your account? This action cannot be undone.",
+  "deleteSuccess": "Account deleted successfully",
+  "deleteError": "Failed to delete account",
+  "loading": "Loading settings...",
+  "loadError": "Failed to load user settings."
+},
+"footer": {
+  "description": "A modern platform for streaming free, legal videos using the BitTorrent protocol.",
+  "navigation": "Navigation",
+  "legal": "Legal",
+  "legalNote": "Only royalty-free and legally distributable content is used.",
+  "rights": "All rights reserved.",
+  "streamingSince": "Streaming legally since"
+}
+}
